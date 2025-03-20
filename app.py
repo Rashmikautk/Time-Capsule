@@ -6,6 +6,7 @@ from time_capsule import TimeCapsule  # Import the main TimeCapsule class
 app = Flask(__name__)
 time_capsule = TimeCapsule()  # Initialize the TimeCapsule object
 
+
 @app.route('/')
 def index():
     # Render the main page
